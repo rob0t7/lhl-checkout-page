@@ -1,0 +1,22 @@
+.summary {
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+}
+
+.summary__header {
+  background: #c8c8c8;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.summary__body {
+  padding: 0.5rem;
+}
+
+.summary__body tr td:first-child {
+  font-weight: bold;
+}
+.summary__body tr td:nth-child(2) {
+  text-align: right;
+}
